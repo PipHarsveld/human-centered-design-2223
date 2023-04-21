@@ -1,7 +1,7 @@
 # Human Centered Design @cmda-minor-web 2022 - 2023
  <!-- Omschrijving -->
 
-Voor het vak Human Centred Design ben ik ingedeeld bij een grk
+Voor het vak Human Centred Design ben ik ingedeeld bij een groepje die een product gaat maken voor Marie.
 
 ## Inhoudsopgave
 * [Features](#features)
