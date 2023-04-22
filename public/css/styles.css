@@ -1,0 +1,189 @@
+/*********/
+/* Fonts */
+/*********/
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Light.ttf) format('ttf');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf) format('ttf');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Medium.ttf) format('ttf');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-SemiBold.ttf) format('ttf');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Bold.ttf) format('ttf');
+    font-weight: 700;
+    font-display: swap;
+}
+
+
+
+/*************/
+/* CSS Reset */
+/*************/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    overflow: auto;
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    list-style-type: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+
+/********/
+/* Root */
+/********/
+:root {
+    --background-color: #FFFFFF;
+
+    --accent-color: #FC532F;
+    --accent-color-light: #FFF5F4;
+
+    --text-color: #000000;
+    --text-color-light: #A4A4A4;
+
+    --font-family: 'Montserrat', Arial, sans-serif;
+
+    --border-radius: 1rem;
+}
+
+
+
+
+/********************/
+/* Algemene styling */
+/********************/
+body {
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--text-color);
+    margin: 1rem 1.5rem;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+header>section a {
+    font-size: 0pt;
+}
+
+p,
+a,
+li,
+input {
+    font-size: 1.2rem;
+}
+
+
+/**************/
+/* Detailpage */
+/**************/
+.detailPage>main>div {
+    background-color: var(--accent-color-light);
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.detailPage>main>div>p{
+    text-align: center;
+}
+
+/* Buttons */
+.detailPage>main>section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.detailPage>main>section>button{
+    border: none;
+    background-color: var(--accent-color-light);
+    height: 3rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailPage>main>section>button:nth-of-type(2){
+    background-color: var(--accent-color);
+    height: 4rem;
+    margin: 0 1rem;
+}
+
+.detailPage>main>section>button>img{
+    width: 60%;
+    aspect-ratio: 1/1;
+    margin-left: .4rem;
+}
+
+
+.pauseIcon{
+    margin-left: 0 !important;
+}
