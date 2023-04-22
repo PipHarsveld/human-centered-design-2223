@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marie</title>
+    <title>Podplaza</title>
     <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
+</head>
+
+<body class="detailPage">
+    <header>
+        <h1>Podplaza</h1>
+    </header>
+
     <main>
-      <section>
-        <h1>Marie Podcast</h1>
-
         <div>
-          <p>
-            Transcript
-          </p>
+            <p>
+                Transcript
+            </p>
         </div>
-      </section>
 
-      <audio id="myAudio">
-        <source src="./audio/podcast_snippet.mp3" type="audio/mpeg" />
-        Je browser ondersteunt geen audio tag.
-      </audio>
+        <audio id="myAudio">
+            <source src="./audio/podcast_snippet.mp3" type="audio/mpeg" />
+            Je browser ondersteunt geen audio tag.
+        </audio>
 
-      <button></button>
+        <section>
+            <button></button>
+            <button id="startBtn"><img src="../public/images/play-icon.svg"></button>
+            <button></button>
+        </section>
     </main>
 
     <script type="module" src="./scripts/script.js"></script>
-  </body>
+</body>
+
 </html>
