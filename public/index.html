@@ -22,18 +22,26 @@
         </div>
 
         <input type="range" min="0" max="100" value="0">
-        <p id="currentTime"></p>
+        <p id="currentTime">0:00</p>
 
-        <audio id="myAudio">
+        <section>
+            <label for="speed">Afspeelsnelheid</label>
+            <select name="speed" id="speed">
+                <option value="0.75x">0.75x</option>
+                <option value="1x" selected="selected">1x</option>
+                <option value="1.25x">1.25x</option>
+                <option value="1.5x">1.5x</option>
+            </select>
+            <button id="rewindBtn"><img src="../public/images/rewind-icon.svg"></button>
+            <button id="startBtn"><img src="../public/images/play-icon.svg"></button>
+            <button id="fastforwardBtn"><img src="../public/images/skip-icon.svg"></button> <a href="file.doc"><img
+                    src="../public/images/download-icon.png"></a>
+        </section>
+
+        <audio>
             <source src="./audio/podcast_snippet.mp3" type="audio/mpeg" />
             Je browser ondersteunt geen audio tag.
         </audio>
-
-        <section>
-            <button></button>
-            <button id="startBtn"><img src="../public/images/play-icon.svg"></button>
-            <button></button>
-        </section>
     </main>
 
     <script type="module" src="./scripts/script.js"></script>
