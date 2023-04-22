@@ -2,21 +2,24 @@ import { captions } from "./captions.js";
 
 console.log(captions);
 
-const startButton = document.querySelector("main button");
-const captionContainer = document.querySelector("main section div");
-let caption = document.querySelector("main section div p");
+const startButton = document.querySelector("#startBtn");
+const pauseIcon = document.querySelector("#startBtn>img");
+const captionContainer = document.querySelector("main div");
+let caption = document.querySelector("main div p");
 const audio = document.querySelector("audio");
 let pauseTime = 0;
 
 startButton.addEventListener("click", () => {
   if (audio.paused) {
     audio.play();
-    startButton.classList.add("hidden");
     captionContainer.classList.add("start");
+    pauseIcon.src = "images/pause-icon.svg";
+    pauseIcon.classList.add("pauseIcon");
     console.log("start");
   } else {
     audio.pause();
-    startButton.classList.remove("hidden");
+    pauseIcon.src = "images/play-icon.svg";
+    pauseIcon.classList.remove("pauseIcon");
     console.log("pause");
   }
 });
