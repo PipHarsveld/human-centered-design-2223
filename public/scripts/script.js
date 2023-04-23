@@ -93,14 +93,16 @@ fastForwardButton.addEventListener("click", () => {
 
 
 const vibrateButton = document.querySelector('#vibrateBtn');
+const messageElement = document.querySelector('#message');
+
 
 vibrateButton.addEventListener('click', () => {
   const pattern = [100, 100, 100]; // vibration pattern
   if ("vibrate" in navigator) {
-    alert("Vibration is supported in your browser");
+    messageElement.textContent = "Vibration is supported in your browser";
     navigator.vibrate(pattern); // trigger vibration
   } else {
-    alert("Vibration is not supported in your browser");
+    messageElement.textContent = "Vibration is not supported in your browser";
   }
 });
 
