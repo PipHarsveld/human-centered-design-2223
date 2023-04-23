@@ -90,3 +90,12 @@ rewindButton.addEventListener("click", () => {
 fastForwardButton.addEventListener("click", () => {
   audio.currentTime += 15;
 });
+
+
+const vibrateButton = document.querySelector('#vibrateBtn');
+
+vibrateButton.addEventListener('click', () => {
+  const pattern = [100, 100, 100]; // vibration pattern
+  navigator.vibrate(pattern); // trigger vibration
+  console.log('vibrate');
+});
