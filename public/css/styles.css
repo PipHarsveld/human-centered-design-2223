@@ -58,6 +58,7 @@ body {
 
 body {
     line-height: 1.5;
+    overflow: hidden;
 }
 
 img,
@@ -212,65 +213,121 @@ select {
 }
 
 /* Slider */
-input[type="range"] {
-    -webkit-appearance: none;
+/* General input styles */
+/* input[type="range"] {
     appearance: none;
+    -webkit-appearance: none;
     width: 100%;
     height: 0.5rem;
-    background: linear-gradient(to right, var(--accent-color-light) 0%, var(--accent-color-light) calc(100% - var(--progress) * 100%), var(--accent-color) calc(100% - var(--progress) * 100%), var(--accent-color) 100%);
     outline: none;
     border-radius: 0.25rem;
     margin-top: 1.5rem;
     position: relative;
-}
-
-input[type="range"]::-webkit-slider-runnable-track {
-    height: 10px;
+  } */
+  
+  /* WebKit-specific styles */
+  /* input[type="range"]::-webkit-slider-runnable-track {
     -webkit-appearance: none;
-    color: var(--accent-color);
+    appearance: none;
+    background-color: #dddddd;
+    background-image: linear-gradient(to right, var(--accent-color-light) 0%, var(--accent-color-light) calc(100% - var(--progress) * 100%), var(--accent-color) calc(100% - var(--progress) * 100%), var(--accent-color) 100%);
+    height: 10px;
     margin-top: -1px;
-}
-
-input[type="range"]::-webkit-slider-thumb {
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     border: none;
+    border-radius: 50%;
     width: 0.5rem;
     height: 0.5rem;
     background: var(--accent-color);
     cursor: pointer;
-    border-radius: 50%;
     position: relative;
     z-index: 2;
-    box-shadow: -80px 0 0 80px var(--accent-color);
-}
+  } */
 
-input[type="range"]::-moz-range-thumb {
+
+  input[type="range"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 0.5rem;
+    outline: none;
+    border-radius: 0.25rem;
+    margin-top: 1.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* WebKit-specific styles */
+  input[type="range"]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--accent-color-light);
+    background-image: linear-gradient(to right, var(--accent-color-light) 0%, var(--accent-color-light) calc(100% - var(--progress) * 100%), var(--accent-color) calc(100% - var(--progress) * 100%), var(--accent-color) 100%);
+    height: 10px;
+    margin-top: -1px;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
     border: none;
+    border-radius: 50%;
     width: 0.5rem;
     height: 0.5rem;
     background: var(--accent-color);
     cursor: pointer;
-    border-radius: 50%;
     position: relative;
     z-index: 2;
-}
-
-input[type="range"]::-moz-range-progress {
-    background-color: var(--accent-color);
-}
-
-input[type="range"]::-moz-range-track {
+    box-shadow: -20rem 0 0 20rem var(--accent-color);
+  }
+  
+  /* Mozilla-specific styles */
+  input[type="range"]::-moz-range-track {
     background-color: #dddddd;
-}
-
-input[type="range"]::-ms-fill-lower {
+  }
+  
+  input[type="range"]::-moz-range-progress {
     background-color: var(--accent-color);
-}
-
-input[type="range"]::-ms-fill-upper {
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 0.5rem;
+    position: relative;
+    width: 0.5rem;
+    z-index: 2;
+    background: var(--accent-color);
+  }
+  
+  /* Microsoft-specific styles */
+  input[type="range"]::-ms-track {
     background-color: #dddddd;
-}
+  }
+  
+  input[type="range"]::-ms-fill-lower {
+    background-color: var(--accent-color);
+  }
+  
+  input[type="range"]::-ms-fill-upper {
+    background-color: #dddddd;
+  }
+  
+  input[type="range"]::-ms-thumb {
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 0.5rem;
+    position: relative;
+    width: 0.5rem;
+    z-index: 2;
+    background: var(--accent-color);
+  }
 
 
 
