@@ -1,4 +1,4 @@
-# Human Centered Design @cmda-minor-web 2022 - 2023
+# PodPlaza
  <!-- Omschrijving -->
 
 Voor het vak Human Centred Design ben ik ingedeeld bij een groepje die een product gaat maken voor Marie.
