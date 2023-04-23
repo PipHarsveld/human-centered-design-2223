@@ -96,6 +96,11 @@ const vibrateButton = document.querySelector('#vibrateBtn');
 
 vibrateButton.addEventListener('click', () => {
   const pattern = [100, 100, 100]; // vibration pattern
-  navigator.vibrate(pattern); // trigger vibration
-  console.log('vibrate');
+  if ("vibrate" in navigator) {
+    alert("Vibration is supported in your browser");
+    navigator.vibrate(pattern); // trigger vibration
+  } else {
+    alert("Vibration is not supported in your browser");
+  }
 });
+
