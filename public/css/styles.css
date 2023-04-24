@@ -224,9 +224,9 @@ select {
     margin-top: 1.5rem;
     position: relative;
   } */
-  
-  /* WebKit-specific styles */
-  /* input[type="range"]::-webkit-slider-runnable-track {
+
+/* WebKit-specific styles */
+/* input[type="range"]::-webkit-slider-runnable-track {
     -webkit-appearance: none;
     appearance: none;
     background-color: #dddddd;
@@ -249,7 +249,7 @@ select {
   } */
 
 
-  input[type="range"] {
+input[type="range"] {
     appearance: none;
     -webkit-appearance: none;
     width: 100%;
@@ -259,19 +259,19 @@ select {
     margin-top: 1.5rem;
     position: relative;
     overflow: hidden;
-  }
-  
-  /* WebKit-specific styles */
-  input[type="range"]::-webkit-slider-runnable-track {
+}
+
+/* WebKit-specific styles */
+input[type="range"]::-webkit-slider-runnable-track {
     -webkit-appearance: none;
     appearance: none;
     background-color: var(--accent-color-light);
     background-image: linear-gradient(to right, var(--accent-color-light) 0%, var(--accent-color-light) calc(100% - var(--progress) * 100%), var(--accent-color) calc(100% - var(--progress) * 100%), var(--accent-color) 100%);
     height: 10px;
     margin-top: -1px;
-  }
-  
-  input[type="range"]::-webkit-slider-thumb {
+}
+
+input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     border: none;
@@ -283,18 +283,18 @@ select {
     position: relative;
     z-index: 2;
     box-shadow: -20rem 0 0 20rem var(--accent-color);
-  }
-  
-  /* Mozilla-specific styles */
-  input[type="range"]::-moz-range-track {
+}
+
+/* Mozilla-specific styles */
+input[type="range"]::-moz-range-track {
     background-color: #dddddd;
-  }
-  
-  input[type="range"]::-moz-range-progress {
+}
+
+input[type="range"]::-moz-range-progress {
     background-color: var(--accent-color);
-  }
-  
-  input[type="range"]::-moz-range-thumb {
+}
+
+input[type="range"]::-moz-range-thumb {
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -303,22 +303,22 @@ select {
     width: 0.5rem;
     z-index: 2;
     background: var(--accent-color);
-  }
-  
-  /* Microsoft-specific styles */
-  input[type="range"]::-ms-track {
+}
+
+/* Microsoft-specific styles */
+input[type="range"]::-ms-track {
     background-color: #dddddd;
-  }
-  
-  input[type="range"]::-ms-fill-lower {
+}
+
+input[type="range"]::-ms-fill-lower {
     background-color: var(--accent-color);
-  }
-  
-  input[type="range"]::-ms-fill-upper {
+}
+
+input[type="range"]::-ms-fill-upper {
     background-color: #dddddd;
-  }
-  
-  input[type="range"]::-ms-thumb {
+}
+
+input[type="range"]::-ms-thumb {
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -327,7 +327,7 @@ select {
     width: 0.5rem;
     z-index: 2;
     background: var(--accent-color);
-  }
+}
 
 
 
