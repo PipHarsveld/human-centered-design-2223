@@ -140,6 +140,14 @@ input {
 /**************/
 /* Detailpage */
 /**************/
+.detailPage>main>p:first-of-type{
+    font-weight: 600;
+}
+
+.detailPage>main>p:nth-of-type(2){
+    font-size: 1rem;
+}
+
 .detailPage>main>div {
     background-color: var(--accent-color-light);
     aspect-ratio: 1 / 1;
