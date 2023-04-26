@@ -42,8 +42,11 @@ export let captions = [
   { caption: 'kon je alles in doen... en als je meer dan dat had te zeggen, dan werd er niet meer geluisterd ', time: 114 },
   { caption: 'en toch is de podcast is uh... neemt tijd, langzaam, mensen luisteren ernaar, het is een heel populair medium.', time: 119 },
   { caption: 'Ja, en uh... ik denk dat het heel goed medium is ook om te reflecteren op tien jaar koningschap.', time: 125 },
-  // { caption: 'Edwin Evers: Ja, en dat gaan we per jaar doen. We beginnen zo meteen, in 2013. Ik heb natuurlijk de nodige instructies meegekregen. We gaan het over het koningschap hebben, uw koningschap, tien jaar lang de Koning, maar niet-niet teveel privé...', time: 129 },
-  // { caption: 'Koning Willem Alexander: Maar... U bent toch niet iemand die echt de instructies... helemaal...', time: 142 },
-  // { caption: 'Edwin Evers: Nee klopt, maar ik wil even de piketpalen slaan. [Hahaha]', time: 143 }
+  { caption: 'Edwin Evers: Ja, en dat gaan we per jaar doen. We beginnen zo meteen, in 2013. ', time: 129.5 },
+  { caption: 'Ik heb natuurlijk de nodige instructies meegekregen. ', time: 134 },
+  { caption: 'We gaan het over het koningschap hebben, uw koningschap,', time: 136 },
+  { caption: 'tien jaar lang de Koning, maar niet-niet teveel privé...', time: 139 },
+  { caption: 'Koning Willem Alexander: Maar... U bent toch niet iemand die echt de instructies... helemaal...', time:  142.5 },
+  { caption: 'Edwin Evers: Nee klopt, maar ik wil even de piketpalen slaan [Hahaha] ', time: 144 }
 
 ];
