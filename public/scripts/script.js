@@ -41,6 +41,13 @@ audio.addEventListener("timeupdate", () => {
 
   slider.value = percentage;
 
+  if (currentTime >= 145) {
+    const pattern = [100, 10, 100, 10, 100, 10, 100]; // vibration pattern
+    if ("vibrate" in navigator) {
+      navigator.vibrate(pattern); // trigger vibration
+    }
+  }
+
   for (let i = 0; i < captions.length; i++) {
     if (currentTime >= captions[i].time) {
       caption.innerHTML = captions[i].caption;
@@ -95,7 +102,7 @@ fastForwardButton.addEventListener("click", () => {
 const vibrateButton = document.querySelector('#vibrateBtn');
 
 vibrateButton.addEventListener('click', () => {
-  const pattern = [125,75,125,275,200,275,125,75,125,275,200,600,200,600]; // vibration pattern
+  const pattern = [100, 100, 100]; // vibration pattern
   if ("vibrate" in navigator) {
     navigator.vibrate(pattern); // trigger vibration
   }
