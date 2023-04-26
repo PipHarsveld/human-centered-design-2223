@@ -47,6 +47,13 @@ export let captions = [
   { caption: 'We gaan het over het koningschap hebben, uw koningschap,', time: 136 },
   { caption: 'tien jaar lang de Koning, maar niet-niet teveel privé...', time: 139 },
   { caption: 'Koning Willem Alexander: Maar... U bent toch niet iemand die echt de instructies... helemaal...', time:  142.5 },
-  { caption: 'Edwin Evers: Nee klopt, maar ik wil even de piketpalen slaan [Hahaha] ', time: 144 }
+  { caption: 'Edwin Evers: Nee klopt, maar ik wil even de piketpalen slaan [Hahaha] ', time: 144 },
+  { caption: 'Koning Willem Alexander: [Hahaha]', time: 145.5 },
+  { caption: 'Koning Willem Alexander: Ja nee maar U bent toch niet iemand die alle instructies meteen overneemt toch?', time: 146.5 },
+  { caption: 'Edwin Evers: Zal ik de iPad gewoon wegleggen nu?!', time: 149.5 },
+  { caption: 'Koning Willem Alexander: [Hahaha]', time: 150.5 },
+  { caption: 'Edwin Evers: Nee, want uh... niet te veel privé werd er gezegd.', time: 152 },
+  { caption: 'Koning Willem Alexander: Nou, dat uh..., dat mag wel, maar uh...', time: 154 },
+  { caption: 'Edwin Evers: Maar U antwoord niet', time: 157 }
 
 ];

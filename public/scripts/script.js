@@ -51,7 +51,7 @@ audio.addEventListener("timeupdate", () => {
       console.log("stopping vibration");
       navigator.vibrate(0); // stop vibration
     }
-  }
+  } 
 
   for (let i = 0; i < captions.length; i++) {
     if (currentTime >= captions[i].time) {
