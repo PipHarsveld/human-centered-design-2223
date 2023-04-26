@@ -59,6 +59,7 @@ body {
 body {
     line-height: 1.5;
     overflow: hidden;
+    max-width: 100vw;
 }
 
 img,
