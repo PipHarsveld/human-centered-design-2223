@@ -165,10 +165,6 @@ input {
 }
 
 /* Buttons */
-label {
-    position: absolute;
-    right: -50rem;
-}
 
 /* Hide arrow dropdown */
 select {
