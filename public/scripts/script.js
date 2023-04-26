@@ -41,12 +41,12 @@ audio.addEventListener("timeupdate", () => {
 
   slider.value = percentage;
 
-  if (currentTime >= 144 && currentTime < 150) {
+  if (currentTime >= 144 && currentTime < 146) {
     const pattern = [100, 100, 100]; // vibration pattern
     if ("vibrate" in navigator) {
       navigator.vibrate(pattern); // trigger vibration
     }
-  } else if (currentTime >= 150) {
+  } else if (currentTime >= 146) {
     if ("vibrate" in navigator) {
       console.log("stopping vibration");
       navigator.vibrate(0); // stop vibration
