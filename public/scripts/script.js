@@ -103,13 +103,3 @@ fastForwardButton.addEventListener("click", () => {
   audio.currentTime += 15;
 });
 
-
-const vibrateButton = document.querySelector('#vibrateBtn');
-
-vibrateButton.addEventListener('click', () => {
-  const pattern = [100, 100, 100]; // vibration pattern
-  if ("vibrate" in navigator) {
-    navigator.vibrate(pattern); // trigger vibration
-  }
-});
-
