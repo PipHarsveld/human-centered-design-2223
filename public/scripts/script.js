@@ -48,6 +48,7 @@ audio.addEventListener("timeupdate", () => {
     }
   } else if (currentTime >= 150) {
     if ("vibrate" in navigator) {
+      console.log("stopping vibration");
       navigator.vibrate(0); // stop vibration
     }
   }
