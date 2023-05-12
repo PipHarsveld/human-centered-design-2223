@@ -1,4 +1,4 @@
-import { captions } from "./captions.js";
+import { captions } from "./captions2.js";
 
 console.log(captions);
 
@@ -56,6 +56,17 @@ audio.addEventListener("timeupdate", () => {
   for (let i = 0; i < captions.length; i++) {
     if (currentTime >= captions[i].time) {
       caption.innerHTML = captions[i].caption;
+
+      if(captions[i].character == "Edwin Evers"){
+        caption.parentElement.classList.remove("koning");
+        caption.parentElement.classList.add("edwin");
+      } else if (captions[i].character == "Koning Willem Alexander"){
+        caption.parentElement.classList.remove("edwin");
+        caption.parentElement.classList.add("koning");
+      } else {
+        caption.parentElement.classList.remove("edwin");
+        caption.parentElement.classList.remove("koning");
+      }
     }
   }
 });
