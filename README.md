@@ -1,6 +1,6 @@
 # PodPlaza - de inclusieve podcastapp
 
-Hier een plaatje van jouw prototype: `<img>`
+https://github.com/PipHarsveld/podplaza/assets/54938035/151addca-87e1-4b8f-8693-8ab1d0ba2873
 
 ## Onderzoeksvraag
 Hoe werkt een podcast voor Marie? En hoe kan haar ervaring verbeterd worden?
