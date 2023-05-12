@@ -64,7 +64,6 @@ body {
 
 img,
 picture,
-video,
 canvas,
 svg {
     display: block;
@@ -332,4 +331,13 @@ input[type="range"]::-ms-thumb {
 
 .edwin {
     background-color: var(--edwin-color) !important;
+}
+
+
+video{
+    display: none;
+}
+
+.visable{
+    display: block;
 }

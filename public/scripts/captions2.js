@@ -1,5 +1,10 @@
 export let captions = [
     {
+        caption: 'Tonny Media',
+        time: 1,
+        character: "",
+    },
+    {
         caption: 'Het is precies tien jaar geleden',
         time: 2,
         character: "Edwin Evers",
@@ -24,7 +29,6 @@ export let captions = [
         time: 13,
         character: "Edwin Evers",
     },
-
     {
         caption: 'vanuit zijn werkkamer in paleis huis ten Bosch.',
         time: 16,
@@ -36,7 +40,7 @@ export let captions = [
         character: "Edwin Evers",
     },
     {
-        caption: '[Introtune]',
+        caption: '',
         time: 23.5,
         character: "",
     },

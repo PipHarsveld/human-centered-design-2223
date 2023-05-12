@@ -11,7 +11,6 @@ const speedSelector = document.querySelector("select");
 const rewindButton = document.querySelector("#rewindBtn");
 const fastForwardButton = document.querySelector("#fastforwardBtn");
 
-
 var slider = document.querySelector("input[type=range]");
 
 let caption = document.querySelector("main div p");
@@ -21,7 +20,6 @@ let currentTime = 0;
 startButton.addEventListener("click", () => {
   if (audio.paused) {
     audio.play();
-    captionContainer.classList.add("start");
     pauseIcon.src = "images/pause-icon.svg";
     pauseIcon.classList.add("pauseIcon");
     console.log("start");
@@ -40,6 +38,20 @@ audio.addEventListener("timeupdate", () => {
   currentTime = audio.currentTime;
 
   slider.value = percentage;
+
+  if(currentTime > 0){
+    caption.innerHTML = "";
+  }
+
+  const video = document.querySelector("video");
+
+  if (currentTime >= 23.5) {
+    video.classList.add("visable");
+    video.play();
+  } 
+  if (currentTime >= 34) {
+    video.classList.remove("visable");
+  }
 
   if (currentTime >= 145 && currentTime < 146.5) {
     const pattern = [100, 100, 100]; // vibration pattern
