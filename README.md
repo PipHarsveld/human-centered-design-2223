@@ -36,4 +36,3 @@ Om mij wat meer te verdiepen in de opdracht en mogelijke oplossingen, heb ik de 
 - [https://uxdesign.cc/missing-a-point-70aa8ee6f81e](https://uxdesign.cc/missing-a-point-70aa8ee6f81e)
 - [https://uxplanet.org/podcasts-for-the-deaf-d4d9b5f3ce99](https://uxplanet.org/podcasts-for-the-deaf-d4d9b5f3ce99)
 - [https://leahybaker.com/deaf_access/](https://leahybaker.com/deaf_access/)
-
