@@ -32,6 +32,7 @@ Dit project is [MIT](https://github.com/PipHarsveld/human-centered-design-2223/b
 
 ## Bronnen
 Om mij wat meer te verdiepen in de opdracht en mogelijke oplossingen, heb ik de volgende bronnen gebruikt:
+- [https://www.rev.com/blog/caption-blog/subtitles-vs-captions](https://www.rev.com/blog/caption-blog/subtitles-vs-captions)
 - [https://uxdesign.cc/missing-a-point-70aa8ee6f81e](https://uxdesign.cc/missing-a-point-70aa8ee6f81e)
 - [https://uxplanet.org/podcasts-for-the-deaf-d4d9b5f3ce99](https://uxplanet.org/podcasts-for-the-deaf-d4d9b5f3ce99)
 - [https://leahybaker.com/deaf_access/](https://leahybaker.com/deaf_access/)
