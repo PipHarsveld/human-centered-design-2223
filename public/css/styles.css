@@ -94,6 +94,8 @@ button {
 
     --accent-color: #FC532F;
     --accent-color-light: #FFF5F4;
+    --willem-color: #ffddaa;
+    --edwin-color: #d9e7fb;
 
     --text-color: #000000;
     --text-color-light: #A4A4A4;
@@ -126,9 +128,18 @@ a {
     color: var(--text-color);
 }
 
+header{
+    margin-bottom: 1rem;
+}
+
+header>h1 {
+    text-align: center;
+}
+
 header>section a {
     font-size: 0pt;
 }
+
 
 p,
 a,
@@ -158,6 +169,7 @@ input {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .detailPage>main>div>p {
@@ -214,46 +226,18 @@ select {
 }
 
 .detailPage>main>section>a {
-    width: 1.7rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailPage>main>section>a>img {
+    width: 2rem;
 }
 
 /* Slider */
-/* General input styles */
-/* input[type="range"] {
-    appearance: none;
-    -webkit-appearance: none;
-    width: 100%;
-    height: 0.5rem;
-    outline: none;
-    border-radius: 0.25rem;
-    margin-top: 1.5rem;
-    position: relative;
-  } */
-
-/* WebKit-specific styles */
-/* input[type="range"]::-webkit-slider-runnable-track {
-    -webkit-appearance: none;
-    appearance: none;
-    background-color: #dddddd;
-    background-image: linear-gradient(to right, var(--accent-color-light) 0%, var(--accent-color-light) calc(100% - var(--progress) * 100%), var(--accent-color) calc(100% - var(--progress) * 100%), var(--accent-color) 100%);
-    height: 10px;
-    margin-top: -1px;
-  }
-  
-  input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    border: none;
-    border-radius: 50%;
-    width: 0.5rem;
-    height: 0.5rem;
-    background: var(--accent-color);
-    cursor: pointer;
-    position: relative;
-    z-index: 2;
-  } */
-
-
 input[type="range"] {
     appearance: none;
     -webkit-appearance: none;
@@ -340,4 +324,12 @@ input[type="range"]::-ms-thumb {
 
 .pauseIcon {
     margin-left: 0 !important;
+}
+
+.koning {
+    background-color: var(--willem-color) !important;
+}
+
+.edwin {
+    background-color: var(--edwin-color) !important;
 }
