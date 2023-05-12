@@ -55,5 +55,4 @@ export let captions = [
   { caption: 'Edwin Evers: Nee, want uh... niet te veel privé werd er gezegd.', time: 152 },
   { caption: 'Koning Willem Alexander: Nou, dat uh..., dat mag wel, maar uh...', time: 154 },
   { caption: 'Edwin Evers: Maar U antwoord niet', time: 157 }
-
 ];
